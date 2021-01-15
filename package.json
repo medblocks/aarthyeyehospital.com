@@ -1,0 +1,21 @@
+{
+  "name": "aarthyeyehospital.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "styles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch",
+    "up": "surge"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "bulma-timeline": "^3.0.4"
+  }
+}

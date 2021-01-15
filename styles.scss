@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+.is-vertically-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /*16:9*/
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+
+
+$info: #5376b8;
+@import "node_modules/bulma/bulma.sass";
+@import "node_modules/bulma-timeline/src/sass/index.sass";
+
+.is-flex{
+    display:flex
+  }
+header,
+section,
+
+
+.box{
+height: 100%;
+}
