@@ -169,6 +169,24 @@
                         provide comprehensive eye care, particularly in the fields of retina and cataract surgery, with
                         a commitment to delivering the highest quality of treatment.
                     </div>
+                    <hr>
+                    <div class="level">
+                        <div class="level-item">
+                            <figure class="image is-128x128 is-inline-block">
+                                <img class="is-rounded" src="doctor9.jpeg" alt ="Dr Sindhuja Murugesan">
+                            </figure>
+                        </div>
+                        <div class="level-item">
+                            <article class="article">
+                                <p class="title">Dr Sindhuja Murugesan</p>
+                                <p class="has-text-weight-semibold">MBBS, MS, FAICO, FAEH (Oculoplasty)</p>
+                                <p></p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="content">
+                        Dr Sindhuja Murugesan is an Orbit & Oculoplasty Consultant with expertise in lid reconstructive and lacrimal surgeries, as well as thyroid eye disease treatment. She completed her MBBS from Chettinad Medical College and MS from Mahatma Gandhi Medical College. She underwent specialized Fellowship training in Oculoplasty at Aravind Eye Hospital, Coimbatore, and worked as a consultant there for 3.5 years post-fellowship. She was awarded FAICO (Fellowship All India Collegium of Ophthalmology) in Oculoplasty in 2022 and received The Best Paper of Session award in Oculoplasty at AIOS Dreamcon Mumbai 2022. Currently serving as Section Editor in TNOA Journal, she has mentored numerous fellows and postgraduates, and has presented at prestigious international conferences including WSOPRS 2025 Istanbul and ESOPRS 2024 Rotterdam. She currently works at Trinity Eye Hospital and freelances across multiple hospitals.
+                    </div>
                 </div>
             </div>
         </div>
@@ -176,12 +194,13 @@
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Aarthy Eye Hospital</strong>. All rights reserved © 2020
+                <strong>Aarthy Eye Hospital</strong>. All rights reserved © <span id="year"></span>
             </p>
         </div>
     </footer>
     <script>
         document.getElementsByClassName("navbar-burger")[0].addEventListener("click", (event) => { document.getElementsByClassName("navbar-menu")[0].classList.toggle("is-active") })
+        document.getElementById("year").textContent = "2020-" + new Date().getFullYear();
     </script>
 </body>
 

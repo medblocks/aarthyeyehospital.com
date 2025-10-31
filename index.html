@@ -261,6 +261,15 @@
                         <p class="has-text-weight-semibold">MBBS, MS</p>
                     </article>
                 </div>
+                <div class="column is-half-mobile is-one-quarter-desktop has-text-centered">
+                    <article class="article">
+                        <figure class="image is-128x128 is-inline-block">
+                            <img class="is-rounded" src="doctor9.jpeg" alt = "Dr Sindhuja Murugesan">
+                        </figure>
+                        <p class="is-size-5">Dr Sindhuja Murugesan</p>
+                        <p class="has-text-weight-semibold">MBBS, MS, FAICO, FAEH</p>
+                    </article>
+                </div>
             </div>
             <nav class="level">
                 <div class="level-item">
@@ -368,12 +377,13 @@
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Aarthy Eye Hospital</strong>. All rights reserved © 2020
+                <strong>Aarthy Eye Hospital</strong>. All rights reserved © <span id="year"></span>
             </p>
         </div>
     </footer>
     <script>
         document.getElementsByClassName("navbar-burger")[0].addEventListener("click", (event) => { document.getElementsByClassName("navbar-menu")[0].classList.toggle("is-active") })
+        document.getElementById("year").textContent = "2020-" + new Date().getFullYear();
     </script>
 </body>
 
