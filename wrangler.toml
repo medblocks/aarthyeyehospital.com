@@ -1,0 +1,6 @@
+name = "aarthyeyehospital-com"
+compatibility_date = "2025-06-22"
+
+# Static-site deploy: no Worker script, just serve the files at the repo root.
+[assets]
+directory = "./"

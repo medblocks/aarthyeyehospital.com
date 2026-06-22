@@ -4,18 +4,15 @@
   "description": "",
   "main": "styles.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url styles.scss css/styles.css",
+    "css-build": "sass --no-source-map styles.scss css/styles.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch",
-    "up": "surge"
+    "start": "npm run css-watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "bulma": "^0.8.2",
-    "node-sass": "^4.13.1"
-  },
-  "dependencies": {
-    "bulma-timeline": "^3.0.4"
+    "bulma-timeline": "^3.0.4",
+    "sass": "^1.77.0"
   }
 }
